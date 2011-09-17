@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#wrap{
+	width:1000px;
+	padding-top:20px;
+	background-color:#FFF;
+	min-height:1350px;
+}
+#top{
+	width:789px;
+	min-height:245px;
+}
+#bio{
+	width:800px;
+	min-height:275px;
+}
+#me, #photography{
+	display:none;
+}
+#information{
+	width:800px;
+}
+#icons{
+	width:800px;
+	min-height:200px;
+}
+.tag_behance{
+	background:url(../images/behance.png) no-repeat;
+}
+.tag_facebook{
+	background:url(../images/facebook.png) no-repeat;
+}
+.tag_tumblr{
+	background:url(../images/tumblr.png) no-repeat;
+}
+.tag_behance:hover{
+	background:url(../images/behance_rollover.png) no-repeat;
+}
+.tag_facebook:hover{
+	background:url(../images/facebook_rollover.png) no-repeat;
+}
+.tag_tumblr:hover{
+	background:url(../images/tumblr_rollover.png) no-repeat;
+}
+.tag_behance, .tag_facebook, .tag_tumblr{
+	width:25px;
+	height:25px;
+	float:left;
+	padding:5px;
+}
+.tag_behance:hover, .tag_facebook:hover, .tag_tumblr:hover, .icon_me:hover, .icon_portfolio:hover, .icon_photography:hover, .icon_double-eggyolk:hover, img#banner_next:hover, img#banner_prev:hover, img#home_logo:hover{
+	cursor: pointer;
+}
+.icon_me{
+	background:url(../images/me.png) no-repeat;
+}
+.icon_portfolio{
+	background:url(../images/portfolio.png) no-repeat;
+}
+.icon_photography{
+	background:url(../images/photography.png) no-repeat;
+}
+.icon_double-eggyolk{
+	background:url(../images/double-eggyolk.png) no-repeat;
+}
+.icon_me:hover{
+	background:url(../images/me_rollover.png) no-repeat;
+}
+.icon_portfolio:hover{
+	background:url(../images/portfolio_rollover.png) no-repeat;
+}
+.icon_photography:hover{
+	background:url(../images/photography_rollover.png) no-repeat;
+}
+.icon_double-eggyolk:hover{
+	background:url(../images/double-eggyolk_rollover.png) no-repeat;
+}
+.icon_me, .icon_portfolio, .icon_photography, .icon_double-eggyolk{
+	width:177px;
+	height:176px;
+	float:left;
+	margin:0px 10px 7px 10px;
+}
+#banner_2, #banner_3, #banner_4, #banner_5{
+	display: none;
+}
+#loading_img{
+	position:fixed;
+	bottom:120px;
+	z-index:999;
+	width:100%
+}
+#loading_screen{
+	position:fixed;
+	width:100%;
+	height:100%;
+	opacity:0.5;
+	background-color:#FFF;
+	z-index:998;
+}
+.preload{
+	display:none;
+}
+.portfolio{
+	width:240px;
+	padding:10px;
+	text-align:center;
+	opacity:0.8;
+}
+.portfolio:hover{
+	opacity:1;
+	cursor:pointer;
+}
+
+.simple_overlay {
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:10000;
+	
+	/* styling */
+	background-color:#333;
+	
+	width:675px;	
+	min-height:200px;
+	border:1px solid #666;
+	
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow:0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;	
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+	background-image:url(images/close.png);
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
